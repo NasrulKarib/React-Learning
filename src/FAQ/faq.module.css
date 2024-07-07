@@ -1,0 +1,30 @@
+.faq {
+    margin: 1rem;
+    background-color: #007bff;
+    padding: 1rem;
+    border-radius: 0.6rem;
+    box-shadow: 0.1rem 0.1rem #2c2c2c;
+    color : white;
+  }
+.faq:hover {
+    background-color: #0056b3;
+}
+  .faq div {
+    display: flex;
+    justify-content: space-between;
+  }
+  .ans{
+    display: none;
+    padding: 0px;
+    color: black;
+    border-left: 0px solid ;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  .toggleIcon {
+    font-size: 2rem;
+    background-color: #007bff;
+    border-color: transparent;
+    color : white
+  }

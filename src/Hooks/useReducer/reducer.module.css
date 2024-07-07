@@ -1,0 +1,88 @@
+/* General styles for the container */
+.reducer {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 3rem;
+    background-color: #383535;
+    border-radius: .6rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading styles */
+  .heading {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    background-image: linear-gradient(-45deg, #35C3F3 0%, #8b9fe8 20%, #e681d8 39%, #ffa9a4 76%, #FED2CE 100%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+  }
+  
+  /* Form styles */
+  .form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+  }
+  
+  .text {
+    flex: 1;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-right: 0.5rem;
+  }
+  
+  .btn[type='submit'] {
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .btn[type='submit']:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Message styles */
+  .reducer p {
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  /* List styles */
+  
+  .list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #c7baba;
+    font-size: 1rem;
+    color : rgb(250, 244, 244);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+  }
+  
+  .list:last-child {
+    border-bottom: none;
+  }
+  
+  /* Remove button styles */
+  .list button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.3rem 0.7rem;
+    cursor: pointer;
+  }
+  
+  .list button:hover {
+    background-color: #e60000;
+  }
+  

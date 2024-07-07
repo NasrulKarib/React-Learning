@@ -1,0 +1,1 @@
+a "toggle" refers to switching between two states. This concept is commonly used in user interfaces to represent the enabling/disabling of a feature or the showing/hiding of content
