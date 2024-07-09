@@ -1,0 +1,9 @@
+The useContext hook is a part of React's Context API that allows you to easily access context values in functional components. Context is used to share data that can be considered "global" for a tree of React components, such as the current authenticated user, theme, or preferred language.
+
+When to Use useContext:
+    1. You have data or functionality that needs to be accessed by many components at different nesting levels.
+    2 .You want to avoid prop drilling (passing props through multiple layers of components like component1 -> componet2 -> component3).
+
+Notes : 
+    1.  It works well for simpler cases where you need to share state between a few components.
+    2.  Overuse of context can lead to performance issues, as every consumer component will re-render when the context value changes.

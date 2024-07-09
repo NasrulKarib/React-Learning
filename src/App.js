@@ -11,10 +11,11 @@ import Home from './todo/home'
 import Form from './formik & Yup/form'
 import Toggle from './toggle/toggle'
 import FAQ from './FAQ/home'
-import UseEffectExample from './Hooks/useEffect/useEffectExample';
-import DataFetch from './Hooks/useEffect/DataFetch';
-import UserForm from './Hooks/useRef/UserForm';
-import Reducer from './Hooks/useReducer/useReducer'
+import UseEffectExample from './Hooks/1 .useEffect/useEffectExample';
+import DataFetch from './Hooks/1 .useEffect/DataFetch';
+import UserForm from './Hooks/2. useRef/UserForm';
+import Reducer from './Hooks/3. useReducer/useReducer'
+import Context from './Hooks/4. useContext/component1'
 
 // To load components
 export default function App() {
@@ -38,7 +39,8 @@ export default function App() {
       {/* 11.<UseEffectExample /> */}
       {/* 12. <DataFetch /> */}
       {/* 13. <UserForm /> */}
-      <Reducer />
+      {/* <Reducer /> */}
+      <Context />
    
     </>
   );
