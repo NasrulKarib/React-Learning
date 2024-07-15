@@ -1,0 +1,70 @@
+/* context.module.css */
+
+.users {
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .user {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .user h2 {
+    margin-bottom: 10px;
+  }
+  
+  .user button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .user button:hover {
+    background-color: #0056b3;
+  }
+  
+  .newUser {
+    grid-column: span 2; /* Ensures the registration form spans two columns */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .newUser h2 {
+    margin-bottom: 20px;
+  }
+  
+.newUser input {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .newUser button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .newUser button:hover {
+    background-color: #0056b3;
+  }
